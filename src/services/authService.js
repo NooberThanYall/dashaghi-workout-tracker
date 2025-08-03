@@ -44,7 +44,7 @@ class AuthService {
     const newUser = await User.create({ tgId, firstName });
     await this.#bot.sendMessage(
       this.#chatId,
-      "You are now registered as my nigger, Welcome!"
+      'You are now registered as my nigger, Welcome!'
     );
 
     return newUser;
